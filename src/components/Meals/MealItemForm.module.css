@@ -1,0 +1,10 @@
+form {
+	display: flex;
+	gap: 1em;
+}
+
+.addBtn {
+	background-color: var(--secondary);
+	padding: 0.5em 1em;
+	border: none;
+}

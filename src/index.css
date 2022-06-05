@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus&family=PT+Serif&display=swap");
+
+:root {
+	--primary: #61dafb;
+	--secondary: #fc929e;
+	--bg-primray: #282c34;
+	--bg-secondary: #424857;
+	--bg-light: #f1f1f1;
+	--text-light: white;
+	--text-dark: #282c34;
+}
+
+body {
+	font-family: "PT Serif", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--bg-primray);
+	color: var(--text-light);
+	position: relative;
+}
+#root {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+	max-width: 100vw;
+}
+
+main {
+	flex: 1 0 auto;
+}
+footer {
+	flex-shrink: 0;
+}
+
+img {
+	max-width: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+	margin-bottom: 0.5em;
+	font-family: "Gentium Plus", serif;
+}
+#overlays {
+	min-height: 100%;
+	max-width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+button {
+	border: none;
+	padding: 0.6em 1em;
+	border-radius: 4px;
+	cursor: pointer;
+}

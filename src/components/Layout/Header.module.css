@@ -1,0 +1,13 @@
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1em;
+}
+h1 {
+	color: var(--text-light);
+}
+
+.hero {
+	height: 60vh;
+}

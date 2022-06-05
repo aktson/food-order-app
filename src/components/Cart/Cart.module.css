@@ -1,0 +1,42 @@
+.cartUl {
+	max-height: 20rem;
+	overflow-y: scroll;
+}
+.cartUl::-webkit-scrollbar {
+	scrollbar-color: var(--primary);
+	width: 1px; /* Mostly for vertical scrollbars */
+	margin-left: 2px;
+}
+.cartUl::-webkit-scrollbar-thumb {
+	/* Foreground */
+	background: var(--text-dark);
+}
+.cartUl::-webkit-scrollbar-track {
+	/* Background */
+	background: var(--text-dark);
+}
+
+.cartUl li {
+	list-style: none;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.totalContainer {
+	display: flex;
+	justify-content: space-between;
+	margin: 1em auto;
+}
+.btnContainer {
+	display: flex;
+	justify-content: end;
+	gap: 1em;
+}
+
+.orderBtn {
+	background-color: var(--secondary);
+	color: var(--text-light);
+}
+.closeBtn {
+	color: var(--text-light);
+	background-color: var(--text-dark);
+}

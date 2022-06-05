@@ -1,0 +1,29 @@
+.listItem {
+	display: flex;
+	flex-direction: column;
+	padding: 0.5em;
+	gap: 0.5em;
+	border-bottom: 1px solid var(--text-dark);
+	margin-right: 1em;
+}
+.itemContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.priceAndQuantityContainer {
+	display: flex;
+	gap: 0.5em;
+}
+.buttonsContainer {
+	display: flex;
+	margin-left: auto;
+	gap: 0.5em;
+}
+.minusBtn,
+.plusBtn {
+	font-size: 0.5em;
+	background-color: var(--text-dark);
+	color: var(--text-light);
+}
